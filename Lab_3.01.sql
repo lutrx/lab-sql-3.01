@@ -49,3 +49,10 @@ VALUES ('2023-03-06 16:08:21', 1, 130, 1);
 -- Checking the insert
 SELECT * FROM sakila.rental
 ORDER BY inventory_id ASC;
+
+-- Activity 2
+
+-- no own fim_actor table; it merges with film table
+-- city and country tables merge with address table
+-- film_text table merges with film table
+-- film_category table merges with category table
